@@ -1,0 +1,59 @@
+/* Estilos Login*/
+
+.bg-login{
+    background-color: black;
+    background: linear-gradient(to right, white, black);
+    background-image: url(/img/bg-login.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 94vh;    
+}
+
+.bg-imagen_derecha{
+    background-image:url(/img/bg-imagen_derecha.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.btn-fa{
+    color: #3b5998;
+}
+
+.btn-go{
+    color: #db4a39;
+}
+
+.btn-tw{
+    color: #00acee;
+}
+
+.btn-modal{
+    background-color: #f8f9fa;
+}
+
+.btn-modal:hover{
+    color: #007bff;
+    background-color: black;
+    transition: 0.3s;
+}
+
+
+/* Estilos Registro
+-----------------------
+.bg-fondo-registro{
+    background-color: white;
+    background-image: url(/img/wallpaperbetter.com_7680x4320\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 94vh;
+}
+
+.bg-tamal{
+    background-image: url(https://dam.cocinafacil.com.mx/wp-content/uploads/2021/07/tamales.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ */
+

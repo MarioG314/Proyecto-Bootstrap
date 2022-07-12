@@ -1,0 +1,42 @@
+*{
+    list-style: none;
+}
+
+.main-principal{
+    background-color: #FFF1AF;
+}
+
+.container-lg{
+    background-color: #FFC286;
+}
+.font-navbar{
+    font-family: 'Lobster', cursive;
+}
+
+.bgnavbar{
+    background-color: #B4C6A6;
+}
+
+
+#rrss a > img{
+    width: 30px;
+}
+#img-footer{
+    width: 50%;
+}
+
+#fondo-footer{
+    background-color: #66806A;
+}
+
+#contenedor-img-footer{
+    display: flex;
+    align-items: center;
+    
+}
+#btn-entradas{
+    background-color: #FFF1AF;
+}
+#btn-entradas:hover{
+    background-color:#FFC286 ;
+}
