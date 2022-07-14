@@ -1,0 +1,134 @@
+/* estilo de Principal */
+
+*{
+    list-style: none;
+}
+
+.main-principal{
+    background-color: #FFF1AF;
+}
+
+.container-lg{
+    background-color: #FFC286;
+}
+.font-navbar{
+    font-family: 'Lobster', cursive;
+}
+
+.bgnavbar{
+    background-color: #B4C6A6;
+}
+
+#fondo-footer{
+    background-color: #66806A;
+}
+
+#contenedor-img-footer{
+    display: flex;
+    align-items: center;
+    
+}
+#btn-entradas{
+    background-color: #FFF1AF;
+}
+#btn-entradas:hover{
+    background-color:#FFC286 ;
+}
+
+/* estilo de GALERIA */
+
+.titulo-galeria {
+    font-family:"lobster", cursive;
+ }
+ .container{
+ margin-top: 0%;
+ background-color: #E4E9BE;
+ 
+ }
+ 
+ .inner{
+    overflow: hidden;
+ }
+ 
+ .inner{
+    transition: all 0.5s ease;
+ 
+ }
+ 
+ .inner:hover img{
+    transform: scale(1.5);
+ }
+ 
+ .inner {
+  position: relative;
+  
+ }
+ .card-body {
+    font-family:"lobster", cursive
+    ;background-color: #EEE4AB;}
+ 
+ .bggaleria {
+    background-color: #E4E9BE;
+    font-family: "lobster";
+    
+ }
+
+ /* estilo Entrada a blogs */
+
+ .bg-entrada_blog{
+    background-color:#E5CB9F ;
+}
+
+.bg-entrada_blog-fondo{
+    background-color:#EEE4AB ;
+}
+
+/* estilo Login*/
+
+.bg-login{
+    background-color: black;
+    background: linear-gradient(to right, white, black);
+    background-image: url(/Login/img-Login/bg-login.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 94vh;    
+}
+
+.bg-imagen_derecha{
+    background-image:url(/Login/img-Login/bg-imagen_derecha.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.btn-fa{
+    color: #3b5998;
+}
+
+.btn-go{
+    color: #db4a39;
+}
+
+.btn-tw{
+    color: #00acee;
+}
+
+.btn-modal{
+    background-color: #f8f9fa;
+}
+
+.btn-modal:hover{
+    color: #007bff;
+    background-color: black;
+    transition: 0.3s;
+}
+
+/* estilo Navbar */
+
+.font-navbar{
+    font-family: 'Lobster', cursive;
+}
+
+.bgnavbar{
+    background-color: #B4C6A6;
+}
