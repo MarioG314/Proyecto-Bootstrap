@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="../css/style.css">
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
@@ -13,10 +13,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100;500&family=Lobster&family=Montserrat:wght@200;400;700&family=Oswald:wght@400;700&family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100;500&family=Edu+NSW+ACT+Foundation&family=Lobster&family=Montserrat:wght@200;400;700&family=Oswald:wght@400;700&family=Press+Start+2P&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
-  <header>
     <!--navbar-->
     <div class="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-top bgnavbar">
@@ -48,7 +50,7 @@
         </div>
       </nav>
     </div>
-  </header>
+    
 
   <main>
 
@@ -106,8 +108,88 @@
   </div>
 </div>
 
+<!-- titulo y descripcion -->
+<div class="container-fluid">
+  <div class="row"> 
+          <div class="caja1 col-12 col-md-12 col-lg-12 col-xl-12 text-center d-flex justify-content-center"><h2 class="my-2 font-tittle">Acerca de nosotros</h2></div>
+          <div class="caja2 col-12 text-center d-flex align-items-center"><p class="font-text pt-2">Hemos creado éste Blog con la intención de compartir con todo el mundo recetas de comidas regionales del norte argentino, para quien desee aprender a cocinarlas y entender por si mismos porqué la comida norteña es considerada una de las mas ricas en éste extenso país!</p>
+          </div>
+  </div>
+</div>          
+<!-- fotos de los integrantes -->
+<div class="caja1 col-12 col-md-12 col-lg-12 col-xl-12 text-center d-flex justify-content-center"><h2 class="my-2 font-tittle">Integrantes</h2></div>
+        <div class="container-fluid fondo-container">
+          <div class="row">
+            <div class="col d-flex d-flex justify-content-around my-3">
+              <img src="../img/acerca de nosotros/acerca de nosotros/fotoMario.jpeg" class="foto" alt="">              
+            </div>
+
+            <div class="col d-flex d-flex justify-content-around my-3">
+              <img src="../img/acerca de nosotros/acerca de nosotros/fotoEstefania2.jpeg" class="foto" alt="">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid fondo-container">
+          <div class="row">
+            <div class="col d-flex justify-content-center my-3">
+              <img src="../img/acerca de nosotros/acerca de nosotros/fotoIgnacio.jpeg" class="foto" alt="">
+            </div>
+
+        <div class="container-fluid fondo-container">
+          <div class="row">
+            <div class="col col d-flex d-flex justify-content-around my-3">
+              <img src="../img/acerca de nosotros/acerca de nosotros/fotoMarina.jpeg" class="foto" alt="">
+            </div>
+
+            <div class="col col d-flex d-flex justify-content-around my-3">
+              <img src="../img/acerca de nosotros/acerca de nosotros/chica.webp" class="foto" alt="">
+            </div>
+          </div>
+        </div>
   </main>
 
+    <!-- COMIENZO DEL FOOTER -->
+    <footer>
+
+      <div class="container-fluid fondo-footer">
+        <div class="container">
+          <div class="row p-4">
+            <div class="col-12 col-md-4 mb-2">
+              <img src="../img/Logos/Logo-negro.png" alt="imagen de logo del blog" class="w-100">
+            </div>
+            <div class="col-12 col-md-4 text-center mb-2">
+              <h4 class="mb-2 fw-bold">Seguinos en las Redes</h4>
+  
+                  <div class="pb-4">
+                    <a href="https://es-la.facebook.com/" target="_blank">
+                      <i class="ico-fa fa-brands fa-facebook fa-3x px-sm-1"></i>  
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                      <i class="ico-inst fa-brands fa-instagram-square fa-3x px-sm-2"></i>       
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                      <i class="ico-tube fa-brands fa-youtube fa-3x px-sm-1"></i>
+                    </a>
+                  </div>
+                  
+            </div>
+            <div class="col-12 col-md-4">
+              <ul>
+                <li class="fw-bold">Bases y condiciones</li>
+                <li class="fw-bold">Prensa</li>
+                <li class="fw-bold">Novedades</li>
+                <li class="fw-bold">Contactanos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+    </footer>
+ 
   
   <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
