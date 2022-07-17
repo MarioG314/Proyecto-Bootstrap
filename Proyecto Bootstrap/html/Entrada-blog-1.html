@@ -5,57 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrada-blog-1</title>
-    <!-- link css -->
-    <link rel="stylesheet" href="/css/style.css">
 
-    <!-- link bootstrap -->
+    <link rel="stylesheet" href="/navbar/styles/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!-- link iconos -->
+
     <script src="https://kit.fontawesome.com/1a1d0818ef.js" crossorigin="anonymous"></script>
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100;500&family=Lobster&family=Montserrat:wght@200;400;700&family=Oswald:wght@400;700&family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <div class="sticky-top">
-        <nav class="navbar navbar-expand-lg  navbar-top bgnavbar ">
-          <div class="container-fluid">
-            <i class="me-3 ms-2 fa-solid fa-bowl-food"></i>
-            <!-- <i class="me-3 ms-2 fa-solid fa-burger"></i> -->
-            <!-- <i class="me-3 ms-2 fa-solid fa-pepper-hot"></i> -->
-            <a class="navbar-brand mx-1 font-navbar" href="#">Deliciosísimo</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">            
-                <li class="nav-item">
-                  <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar">Acerca de Nosotros</button>
-                </li>
-                <li class="nav-item">
-                  <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar">Contacto</button>
-                </li>
-                <li class="nav-item">
-                  <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar" data-bs-toggle="modal" data-bs-target="#suscripcionModal">Suscripción</button>
-                </li>            
-                <li class="nav-item">
-                  <button type="button" class="btn bgnavbar rounded-circle my-1"><i class="bi bi-box-arrow-in-right"></i></button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-    </div>
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-top bgnavbar">
+      <div class="container-fluid">
+        <i class="me-3 ms-2 fa-solid fa-bowl-food"></i>
+        <a class="navbar-brand mx-1 font-navbar" href="#"><h1>Deliciosísimo</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">            
+            <li class="nav-item">
+              <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar">Acerca de Nosotros</button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar">Galería</button>
+            </li>            
+            <li class="nav-item">
+              <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar">Contacto</button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar" data-bs-toggle="modal" data-bs-target="#suscripcionModal">Suscripción</button>
+            </li>            
+            <li class="nav-item">
+              <button type="button" class="border-0 background-button my-2"><i class="bi bi-box-arrow-in-right"></i></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
     <main>
-        <div class="container-fluid bg-entrada_blog-fondo">
-        <div class="container bg-entrada_blog p-3">
+        <div class="container-fluid bg-entradablog-fondo">
+        <div class="container bg-entradablog p-3">
             <div class="row">
                 <div class="col">
-                    <!-- titulo -->
-                    <h2 class="text-center">Empanadas</h2>
+                    <!-- titulo --> 
+                    <h1 class="text-center tittle-font">Empanadas</h1>
                     <!-- imagen -->
                     <div class="container col-md-9 rounded-2 bg-light my-3 p-0">
                         <img src="/img/Img-Entrada-blogs/entrada-blog-1.jpg" alt="" class="w-100 shadow rounded-2">
@@ -63,7 +62,7 @@
                     <!-- ingredientes -->
                     <div class="">
                         <div>
-                        <h3>Ingredientes</h3>
+                        <h3 class="tittle-font">Ingredientes</h3>
                             <ul>
                                 <li>1 kg. de matambre</li>
                                 <li>100 gr. de cebolla blanca</li>
@@ -79,10 +78,7 @@
                             </ul>
                         </div>
                         <div>
-                        <h3>Pasos a seguir</h3>
-                    
-                            
-                        
+                        <h3 class="tittle-font">Pasos a seguir</h3>
                             <p> 
                                 <h5>Preparacion del relleno</h5>
                                 Hervir el matambre 2 Hs  con sal, dejar enfriar y picar en dados pequeños.
@@ -100,13 +96,12 @@
                                 <br>
                                 Por último, estirar la masa con un palo de amasar para lograr los discos.
                                 <br><br>
-                                <h5>Armado y cocción</h5>
+                                <h5 class="tittle-font">Armado y cocción</h5>
                                 Rellenar los discos con la pasta,
                                 cerrar con 13 repulgues.
                                 <br>
                                 Colocar en una asadera y cocinar en horno de barro durante 15 minutos o 20 minutos en horno convencional a 180º.
                             </p>
-
                         </div>
                     </div>
 
@@ -119,50 +114,70 @@
                 </div>
             </div>
         </div>
-        </div>    
-    </main>
-    <footer class="">
-       
-        <div class="container-fluid">
-            <div class="row p-5 pb-2 bg-secondary text-white">
-              <div class="col-xs-12 col-md-6 col-lg-3">
-                <img width="300px" src="img/deliciosoblanco.png" alt="">
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5">Acerca de Nosotros</p>
-                <p class="h7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem officia exercitationem necessitatibus. Minima labore ut omnis? Repudiandae ut placeat velit?</p>
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5">Contacto</p>
-                <div>
-                  Email
-                </div>
-                <div>
-                  Celular
-                </div>
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-3">
-                <div>
-                  <p class="h5"> Redes Sociales</p>
-                </div>
-                <div>
-                  <p class="h7"> <img src="img/facebook.png" width="35px" alt=""> Facebook</p>
-                </div>
-                <div>
-                  <p class="h7"> <img src="img/3721672-instagram_108066.png" width="45px" alt=""> Instagram</p>
-                </div>
-                <div>
-                  <p class="h7"> <img src="img/youtube.png" width="35px" alt=""> Youtube</p>
-                </div>
-              </div>
-              <div class="col-xs-12">
-                <p class="white-text text-center">Deliciosisimo - Todos los Derechos Reservados</p>
-              </div>
+        </div> 
+        <!-- formulario para comentar -->
+      <div class="container-fluid bg-entradablog-fondo">
+          <div class="container bg-entradablog">
+            <div class="row bg-entradablog ">
+              <div class="container-titulo tittle-font text-center"><h3>¿Quieres dejarnos tu comentario?</h3></div>
+              <div class="container-titulo text-center mt-4"><p>Estamos ansiosos por tus ideas, opiniones, consultas y recetas!</p></div>
+              <div class="container">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"><h6>Coméntanos aquí :</h6></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
       
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label m-0 "><h6 class="m-2">Email</h6></label>
+                      <input type="email" class="form-control form-control-sm" id="">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-secondary button-form mb-3"><i class="fa-regular fa-paper-plane"></i></button>
+                    </div>
+                  </form>
             </div>
-      
           </div>
-    </footer>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="container-fluid fondo-footer">
+        <div class="container">
+          <div class="row p-4">
+            <div class="col-12 col-md-4 mb-2">
+              <img src="/./images/Logo-negro-removebg-preview.png" alt="imagen de logo del blog" class="w-100">
+            </div>
+            <div class="col-12 col-md-4 text-center mb-2">
+              <h4 class="mb-2 fw-bold">Seguinos en las Redes</h4>
+  
+                  <div class="pb-4">
+                    <a href="https://es-la.facebook.com/" target="_blank">
+                      <i class="ico-fa fa-brands fa-facebook fa-3x px-sm-1"></i>  
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                      <i class="ico-inst fa-brands fa-instagram-square fa-3x px-sm-2"></i>       
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                      <i class="ico-tube fa-brands fa-youtube fa-3x px-sm-1"></i>
+                    </a>
+                  </div>
+                  
+            </div>
+            <div class="col-12 col-md-4">
+              <ul>
+                <li class="fw-bold">Bases y condiciones</li>
+                <li class="fw-bold">Prensa</li>
+                <li class="fw-bold">Novedades</li>
+                <li class="fw-bold">Contactanos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> 
 
     <!-- Modal -->
 <div class="modal fade" id="suscripcionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

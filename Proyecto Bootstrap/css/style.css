@@ -132,3 +132,86 @@
 .bgnavbar{
     background-color: #B4C6A6;
 }
+
+/* estilos de acerca de nosotros */
+
+.font-navbar{
+    font-family: 'Lobster', cursive;
+}
+
+.bgnavbar{
+    background-color: #B4C6A6;
+}
+
+.caja1{
+    width: 50vw;
+    height: 7vh;
+    background-color: cadetblue;
+}
+
+.caja2{
+    width: 300vw;
+    height: 35vh;
+    background-color: crimson;
+}
+
+.foto{
+
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.font-tittle  {
+    font-family: 'Lobster', cursive;
+}
+
+
+/* estilos de Contacto */
+
+.font-navbar{
+    font-family: 'Lobster', cursive;
+}
+
+.bgnavbar{
+    background-color: #B4C6A6;
+}
+
+.background-button {
+    background-color: #B4C6A6;
+}
+
+.tittle-font{
+    font-family: 'Lobster', cursive;
+}
+
+.mapa {
+    width: 100%;
+    border-radius: 5px;   
+}
+
+.container {
+    margin: 25px;
+}
+
+.form-control-comentario {
+    height: 50px;
+}
+
+.container-titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.fondo-footer {
+    background-color: #B4C6A6;
+}
+
+.bg-entradablog{
+    background-color:#E5CB9F ;
+}
+
+.bg-entradablog-fondo {
+    background-color:#EEE4AB
+}
+
