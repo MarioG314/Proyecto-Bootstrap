@@ -19,15 +19,17 @@
     background-color: #B4C6A6;
 }
 
-#fondo-footer{
+/* Estilos footer */
+
+.fondo-footer{
     background-color: #66806A;
 }
 
-#contenedor-img-footer{
+/* #contenedor-img-footer{
     display: flex;
     align-items: center;
     
-}
+} */
 #btn-entradas{
     background-color: #FFF1AF;
 }
@@ -40,11 +42,6 @@
 .titulo-galeria {
     font-family:"lobster", cursive;
  }
- .container{
- margin-top: 0%;
- background-color: #E4E9BE;
- 
- }
  
  .inner{
     overflow: hidden;
@@ -55,9 +52,9 @@
  
  }
  
- .inner:hover img{
+/*  .inner:hover img{
     transform: scale(1.5);
- }
+ } */
  
  .inner {
   position: relative;
@@ -190,10 +187,6 @@
     border-radius: 5px;   
 }
 
-.container {
-    margin: 25px;
-}
-
 .form-control-comentario {
     height: 50px;
 }
@@ -203,9 +196,9 @@
     justify-content: center;
 }
 
-.fondo-footer {
+/* .fondo-footer {
     background-color: #B4C6A6;
-}
+} */
 
 .bg-entradablog{
     background-color:#E5CB9F ;
