@@ -140,27 +140,30 @@
     background-color: #B4C6A6;
 }
 
-.caja1{
-    width: 50vw;
-    height: 7vh;
-    background-color: cadetblue;
-}
-
-.caja2{
-    width: 300vw;
-    height: 35vh;
-    background-color: crimson;
+.font-tittle {
+    font-family: 'Lobster', cursive;
 }
 
 .foto{
-
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
-    display: flex;
-    justify-content: center;
+
 }
 
-.font-tittle  {
-    font-family: 'Lobster', cursive;
+
+.font-text {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.fondo-container {
+    background-color: #EEE4AB;
+    
+}
+
+.fondo-footer {
+    background-color: #B4C6A6;
 }
 
 
