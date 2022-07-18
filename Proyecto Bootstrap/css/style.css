@@ -85,14 +85,14 @@
 .bg-login{
     background-color: black;
     background: linear-gradient(to right, white, black);
-    background-image: url(/img/Img-Login/bg-login.jpg);
+    background-image: url(../img/Img-Login/bg-login.jpg);
     background-position: center;
     background-size: cover;
     height: 94vh;    
 }
 
 .bg-imagen_derecha{
-    background-image:url(/img/Img-Login/bg-imagen_derecha.jpg);
+    background-image:url(../img/Img-Login/bg-imagen_derecha.jpg);
     background-position: center;
     background-size: cover;
 
