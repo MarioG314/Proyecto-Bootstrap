@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/Proyecto Bootstrap/css/style.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +17,42 @@
 
     <title class="titulo galeria">GALERIA</title>
   </head>
-  <body class="bggaleria">
+  <body class="">
+
+    <!--inicio de navbar-->
+    <div class="sticky-top">
+      <nav class="navbar navbar-expand-lg  navbar-top bgnavbar ">
+        <div class="container-fluid">
+          <i class="me-3 ms-2 fa-solid fa-bowl-food"></i>
+          <a class="navbar-brand mx-1 font-navbar" href="#"> <h2 class="m-0">Deliciosísimo</h2></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">            
+              <li class="nav-item">
+                <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar"><a href="/Proyecto Bootstrap/html/acerca de nosotros.html">Acerca de Nosotros</a></button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar"><a href="/Proyecto Bootstrap/html/GALERIACARD.HTML">Galeria</a></button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar"><a href="/Proyecto Bootstrap/html/contacto.html">Contacto</a></button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar" data-bs-toggle="modal" data-bs-target="#suscripcionModal">Suscripción</button>
+              </li>            
+              <li class="nav-item">
+                <button type="button" class="border-0 bg-transparent my-2"><a class="text-decoration-none" href="/Proyecto Bootstrap/html/Login.html"><i class="bi bi-box-arrow-in-right"></i></a></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
     <!-- div comienzo container-->
+  <div class="container-fluid bggaleria">  
   <div class="container">
       <div class="text-center pt-5">
             <h1>Galeria Deliciosisima</h1>    
@@ -29,7 +63,7 @@
     <div class="col col-12 col-md-4 col-lg-3 py-3">   
       <div class="card shadow border-0" >
         <div class="inner">
-            <img src="/img/Img-Galeria/EMPANADAS1.jpg"  class="card-img-top" alt="EMPANADA">
+            <img src="/Proyecto Bootstrap/img/Img-Galeria/EMPANADAS1.jpg"  class="card-img-top" alt="EMPANADA">
         </div>
             <div class="card-body text-center">
                <h4>Empanadas</h4>
@@ -40,7 +74,7 @@
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >  
         <div class="inner">
-            <img src="/img/Img-Galeria/LOCRO.jpg"  class="card-img-top" alt="LOCRO">
+            <img src="/Proyecto Bootstrap/img/Img-Galeria/LOCRO.jpg"  class="card-img-top" alt="LOCRO">
         </div>
             <div class="card-body text-center">
               <h4>Locro</h4>
@@ -51,7 +85,7 @@
     <div class="col col-12 col-md-4 col-lg-3 py-3">
         <div class="card shadow border-0">
         <div class="inner">
-            <img src="/img/Img-Galeria/HUMITA.jpg"  class="card-img-top" alt="HUMITA">
+            <img src="/Proyecto Bootstrap/img/Img-Galeria/HUMITA.jpg"  class="card-img-top" alt="HUMITA">
         </div>
             <div class="card-body text-center">
                 <h4>Humita</h4>
@@ -62,7 +96,7 @@
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >
         <div class="inner">
-          <img src="/img/Img-Galeria/TAMAL.jpg" class="card-img-top" alt="TAMAL"> 
+          <img src="/Proyecto Bootstrap/img/Img-Galeria/TAMAL.jpg" class="card-img-top" alt="TAMAL"> 
         </div>   
           <div class="card-body text-center">
                 <h4>Tamal</h4>
@@ -73,7 +107,7 @@
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >
         <div class="inner">
-          <img src="/img/Img-Galeria/Ensalada pimientos.jpg" class="card-img-top" alt="Pimiento Relleno"> 
+          <img src="/Proyecto Bootstrap/img/Img-Galeria/Ensalada pimientos.jpg" class="card-img-top" alt="Pimiento Relleno"> 
         </div>   
           <div class="card-body text-center">
                 <h4>Pimientos rellenos</h4>
@@ -84,7 +118,7 @@
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >
         <div class="inner">
-          <img src="/img/Img-Galeria/NIÑOS ENVUELTOS.jpg" class="card-img-top" alt="NIÑOS ENVUELTOS"> 
+          <img src="/Proyecto Bootstrap/img/Img-Galeria/NIÑOS ENVUELTOS.jpg" class="card-img-top" alt="NIÑOS ENVUELTOS"> 
         </div>   
           <div class="card-body text-center">
                 <h4>Niños envueltos</h4>
@@ -95,7 +129,7 @@
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >
         <div class="inner">
-          <img src="/img/Img-Galeria/ENSALAD DE GARBANZOS1.jpg" class="card-img-top" alt="ENSALADA DE GARBANZOS"> 
+          <img src="/Proyecto Bootstrap/img/Img-Galeria/ENSALAD DE GARBANZOS1.jpg" class="card-img-top" alt="ENSALADA DE GARBANZOS"> 
         </div>   
           <div class="card-body text-center">
                 <h4>Ensalada de garbanzos</h4>
@@ -106,7 +140,7 @@
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >
         <div class="inner">
-          <img src="/img/Img-Galeria/ENSALADA DE POLLO.jpg" class="card-img-top" alt="ENSALADA DE POLLO"> 
+          <img src="/Proyecto Bootstrap/img/Img-Galeria/ENSALADA DE POLLO.jpg" class="card-img-top" alt="ENSALADA DE POLLO"> 
         </div>   
           <div class="card-body text-center">
                 <h4>Ensalada de pollo</h4>
@@ -116,6 +150,7 @@
 
   </div> <!--finaliza div row-->
   </div> <!--finaliza div container GALERIA-->
+  </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
