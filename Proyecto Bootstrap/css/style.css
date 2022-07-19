@@ -80,6 +80,14 @@
     background-color:#EEE4AB ;
 }
 
+.coment-tittle {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fondo-card {
+    background-color: #FAFDD6;
+}
+
 /* estilo Login*/
 
 .bg-login{
