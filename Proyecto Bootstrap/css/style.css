@@ -211,3 +211,15 @@
     background-color:#EEE4AB
 }
 
+.sincolor{
+    color: black;
+    text-decoration: none;
+}
+
+.fondo-404{
+    background-image: url(../img/Logos/Sin\ título-1_Mesa\ de\ trabajo\ redimension.png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+}
