@@ -1,58 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- css propio -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->    
     <link rel="stylesheet" href="/Proyecto Bootstrap/css/style.css">
+    <!-- linkl bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- link iconos -->
+    <script src="https://kit.fontawesome.com/1a1d0818ef.js" crossorigin="anonymous"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <script src="https://kit.fontawesome.com/1a1d0818ef.js" crossorigin="anonymous"></script>
-
+    <!-- link fuente -->
     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100;500&family=Lobster&family=Montserrat:wght@200;400;700&family=Oswald:wght@400;700&family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title class="titulo galeria">GALERIA</title>
-  </head>
-  <body>
-
-    <!--navbar-->
+    <title>Delisiosisimo</title>
+</head>
+<body class="main-principal">
+    <!--inicio de navbar-->
     <div class="sticky-top">
-      <nav class="navbar navbar-expand-lg navbar-top bgnavbar">
-        <div class="container-fluid">
-          <i class="me-3 ms-2 fa-solid fa-bowl-food"></i>
-          <a class="navbar-brand mx-1 font-navbar" href="#"><h1>Deliciosísimo</h1></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">            
-              <li class="nav-item">
-                <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar">Acerca de Nosotros</button>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar">Galería</button>
-              </li>            
-              <li class="nav-item">
-                <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar">Contacto</button>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar" data-bs-toggle="modal" data-bs-target="#suscripcionModal">Suscripción</button>
-              </li>            
-              <li class="nav-item">
-                <button type="button" class="border-0 background-button my-2"><i class="fa-solid fa-right-to-bracket"></i></button>
-              </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg  navbar-top navbar-light bgnavbar ">
+          <div class="container-fluid">
+            <i class="me-3 ms-2 fa-solid fa-bowl-food"></i>
+            <a class="navbar-brand mx-1 font-navbar" href="Principal.html"> <h2 class="m-0">Deliciosísimo</h2></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">            
+                <li class="nav-item">
+                  <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar"><a href="/Proyecto Bootstrap/html/acerca de nosotros.html">Acerca de Nosotros</a></button>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar"><a href="/Proyecto Bootstrap/html/GALERIACARD.HTML">Galeria</a></button>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar"><a href="/Proyecto Bootstrap/html/contacto.html">Contacto</a></button>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="border-0 bgnavbar rounded-pill mx-0 my-2 font-navbar" data-bs-toggle="modal" data-bs-target="#suscripcionModal">Suscripción</button>
+                </li>            
+                <li class="nav-item">
+                  <button type="button" class="border-0 bg-transparent my-2"><a class="text-decoration-none" href="/Proyecto Bootstrap/html/Login.html"><i class="bi bi-box-arrow-in-right"></i></a></button>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </div>
-
+        </nav>
+      </div>
     <!-- div comienzo container-->
   <div class="container-fluid bggaleria">  
   <div class="container">
@@ -64,88 +65,88 @@
     <!--div columnas comienzo 1er imagen-->
     <div class="col col-12 col-md-4 col-lg-3 py-3">   
       <div class="card shadow border-0" >
-        <div class="inner">
-            <img src="/Proyecto Bootstrap/img/Img-Galeria/EMPANADAS1.jpg"  class="card-img-top" alt="EMPANADA">
+        <div class="efectocard">
+            <img src="/Proyecto Bootstrap/img/Img-Galeria/Empanadas2.jpg"  class="card-img-top" alt="EMPANADA">
         </div>
             <div class="card-body text-center">
-               <h4>Empanadas</h4>
+               <h5>Empanadas</h5>
             </div> 
       </div>
     </div> <!--finaliza div col 1er imagen-->
     <!--div col comienzo 2da imagen-->
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >  
-        <div class="inner">
+        <div class="efectocard">
             <img src="/Proyecto Bootstrap/img/Img-Galeria/LOCRO.jpg"  class="card-img-top" alt="LOCRO">
         </div>
             <div class="card-body text-center">
-              <h4>Locro</h4>
+              <h5>Locro</h5>
             </div>
       </div>
     </div> <!--finaliza div col 2da imagen-->
     <!--div col comienzo 3era imagen-->   
     <div class="col col-12 col-md-4 col-lg-3 py-3">
         <div class="card shadow border-0">
-        <div class="inner">
+        <div class="efectocard">
             <img src="/Proyecto Bootstrap/img/Img-Galeria/HUMITA.jpg"  class="card-img-top" alt="HUMITA">
         </div>
             <div class="card-body text-center">
-                <h4>Humita</h4>
+                <h5>Humita</h5>
             </div>
         </div>
     </div> <!--finaliza div col 3era imagen-->
      <!--div col comienzo 4ta imagen-->  
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >
-        <div class="inner">
+        <div class="efectocard">
           <img src="/Proyecto Bootstrap/img/Img-Galeria/TAMAL.jpg" class="card-img-top" alt="TAMAL"> 
         </div>   
           <div class="card-body text-center">
-                <h4>Tamal</h4>
+                <h5>Tamal</h5>
           </div>
       </div>
     </div> <!--finaliza div col 4ta imagen-->
     <!--div col comienzo 5ta imagen-->
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >
-        <div class="inner">
+        <div class="efectocard">
           <img src="/Proyecto Bootstrap/img/Img-Galeria/Ensalada pimientos.jpg" class="card-img-top" alt="Pimiento Relleno"> 
         </div>   
           <div class="card-body text-center">
-                <h4>Pimientos rellenos</h4>
+                <h5>Pimientos rellenos</h5>
           </div>
       </div>
     </div> <!--finaliza div col 5ta imagen-->
     <!--div col comienza 6ta imagen-->
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >
-        <div class="inner">
+        <div class="efectocard">
           <img src="/Proyecto Bootstrap/img/Img-Galeria/NIÑOS ENVUELTOS.jpg" class="card-img-top" alt="NIÑOS ENVUELTOS"> 
         </div>   
           <div class="card-body text-center">
-                <h4>Niños envueltos</h4>
+                <h5>Niños envueltos</h5>
           </div>
       </div>
     </div> <!--finaliza div col 6ta imagen-->
     <!--div col comienza 7ma imagen-->
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >
-        <div class="inner">
+        <div class="efectocard">
           <img src="/Proyecto Bootstrap/img/Img-Galeria/ENSALAD DE GARBANZOS1.jpg" class="card-img-top" alt="ENSALADA DE GARBANZOS"> 
         </div>   
           <div class="card-body text-center">
-                <h4>Ensalada de garbanzos</h4>
+                <h5>Ensalada de garbanzos</h5>
           </div>
       </div>
     </div> <!--finaliza div col 7ma imagen-->
     <!--div col comienza 8va imagen-->   
     <div class="col col-12 col-md-4 col-lg-3 py-3">
       <div class="card shadow border-0" >
-        <div class="inner">
+        <div class="efectocard">
           <img src="/Proyecto Bootstrap/img/Img-Galeria/ENSALADA DE POLLO.jpg" class="card-img-top" alt="ENSALADA DE POLLO"> 
         </div>   
           <div class="card-body text-center">
-                <h4>Ensalada de pollo</h4>
+                <h5>Ensalada de pollo</h5>
           </div>
       </div>
     </div> <!--finaliza div col 8va imagen-->
@@ -153,6 +154,94 @@
   </div> <!--finaliza div row-->
   </div> <!--finaliza div container GALERIA-->
   </div>
+  <footer>
+    <div class="container-fluid fondo-footer">
+      <div class="container">
+        <div class="row p-4">
+          <div class="col-12 col-md-4 mb-2">
+            <img src="/Proyecto Bootstrap/img/Logos/Logo-negro.png" alt="imagen de logo del blog" class="w-100">
+          </div>
+          <div class="col-12 col-md-4 text-center mb-2">
+            <h4 class="mb-2 fw-bold">Seguinos en las Redes</h4>
+
+                <div class="pb-4">
+                  <a href="https://es-la.facebook.com/" target="_blank">
+                    <i class="ico-fa fa-brands fa-facebook fa-3x px-sm-1"></i>  
+                  </a>
+                  <a href="https://www.instagram.com/" target="_blank">
+                    <i class="ico-inst fa-brands fa-instagram-square fa-3x px-sm-2"></i>       
+                  </a>
+                  <a href="https://www.youtube.com/" target="_blank">
+                    <i class="ico-tube fa-brands fa-youtube fa-3x px-sm-1"></i>
+                  </a>
+                </div>
+                
+          </div>
+          <div class="col-12 col-md-4">
+            <ul>
+              <li class="fw-bold">Bases y condiciones</li>
+              <li class="fw-bold">Prensa</li>
+              <li class="fw-bold">Novedades</li>
+              <li class="fw-bold">Contactanos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+       <!-- Modal -->
+<div class="modal fade" id="suscripcionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header bg-success p-2 text-dark bg-opacity-10">
+        <h5 class="modal-title font-navbar" id="exampleModalLabel">Crea tu Cuenta</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+  <!--Formulario dentro del 1er modal-->
+          <form>
+              <div class="mb-3">
+                  <label for="text" class="form-label">Nickname</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">              
+              </div>
+                  <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">              
+              </div>
+                  <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>            
+                  <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">¿Deseas recibir Notificaciones?</label>
+              </div>            
+              <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#confirmacionModal">Crear              
+              </button>
+          </form>
+      </div>
+  </div>
+  </div>
+</div>
+  <!--Modal y formulario con confirmacion de cuenta-->
+
+<!--2do Modal -->
+<div class="modal fade" id="confirmacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header modal-header bg-success p-2 text-dark bg-opacity-10">
+      <h5 class="modal-title" id="exampleModal">Mail de confirmacion</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <p>Hemos enviado un mail a tu correo, haz clic en el siguiente botón para confirmar tu Cuenta y ser parte de nuestra hermosa comunidad!</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Ir a mi Mail</button>
+    </div>
+  </div>
+</div>
+</div> 
+  </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
