@@ -211,3 +211,9 @@
     background-color:#EEE4AB
 }
 
+/* fuera color azul de los links */
+
+.sincolor{
+    color: black;
+    text-decoration: none;
+}
