@@ -43,20 +43,20 @@
     font-family:"lobster", cursive;
  }
  
- .inner{
+ .efectocard{
     overflow: hidden;
  }
  
- .inner{
+ .efectocard{
     transition: all 0.5s ease;
  
  }
  
-/*  .inner:hover img{
+.efectocard:hover img{
     transform: scale(1.5);
- } */
+ } 
  
- .inner {
+ .efectocard {
   position: relative;
   
  }
