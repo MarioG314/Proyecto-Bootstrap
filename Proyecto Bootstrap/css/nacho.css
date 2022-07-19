@@ -4,11 +4,11 @@ body {
     padding: 0;
     height: 100vh;
 }
-img{
+/* img{
     width: 80%;
 
-}
-.container{
+} */
+/* .container{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,4 +27,4 @@ button{
     border-color: black;
     
    
-}
+} */
