@@ -136,6 +136,7 @@
 
 /* estilos de acerca de nosotros */
 
+
 .font-navbar{
     font-family: 'Lobster', cursive;
 }
@@ -229,17 +230,20 @@
 }
  /* footer abajo */
 
- .html {
+ html {
     height: 100%;
  }
 
- .body {
+ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    
 
  }
 
- .footer {
+ footer {
     margin-top: auto;
  }
+
+ 
